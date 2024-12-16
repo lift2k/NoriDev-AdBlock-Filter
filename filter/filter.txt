@@ -311,6 +311,14 @@ twitch.tv##+js(nowebrtc)
 ||vod-player002.afreecatv.com^
 ||vod-player003.afreecatv.com^
 
+! [ Sooplive ]
+||vod-player001.sooplive.co.kr^
+||vod-player002.sooplive.co.kr^
+||vod-player002.sooplive.co.kr^
+||vod-player003.sooplive.co.kr^
+||main-player.sooplive.co.kr^
+||img-display.sooplive.co.kr^
+
 ! [ Gom Player ]
 @@||*.ibytedtos.com^$stylesheet
 @@||s0.ipstatp.com/transno/*
@@ -1051,6 +1059,11 @@ bj.afreecatv.com##.bs-notice_layer
 vod.afreecatv.com##.adballoon
 play.afreecatv.com##.bg_dark
 play.afreecatv.com##.adshop_layer
+
+! [ Sooplive ]
+sooplive.co.kr##.click_area
+sooplive.co.kr##.left.a_d_left.Advertising_Output_Area
+sooplive.co.kr##.Advertising_Output_Area
 
 ! --- Shopping --- !
 ! [ Coupang ]
