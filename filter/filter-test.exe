@@ -1,0 +1,101 @@
+! Title: NoriDev AdBlock Filter
+! Description: 일부 추가 필터를 위해 작성. List-KR 및 Adblock Warning Removal List 필터와 같이 사용하는 것을 권장합니다.
+! Author: NoriDev
+! Version: 0.01.0
+! TimeUpdated: 2024-12-16
+! Expires: 1 days (update frequency)
+! Homepage: https://github.com/lift2k/NoriDev-AdBlock-Filter
+
+!---------------!
+!----- ads -----!
+!---------------!
+
+! [ AfreecaTV-Sooplive ]
+||admvod.sooplive.co.kr^
+||deapi.sooplive.co.kr^
+||cache.m.sooplive.co.kr/application/theme^
+||stimg.sooplive.co.kr/LOGO^
+||vod-player001.sooplive.co.kr^
+||vod-player002.sooplive.co.kr^
+||vod-player003.sooplive.co.kr^
+||main-player.sooplive.co.kr^
+||img-display.sooplive.co.kr^
+
+!-------------------------------!
+!----- Site element hiding -----!
+!-------------------------------!
+
+! [ AfreecaTV-Sooplive ]
+bj.sooplive.co.kr##.bs-notice_layer
+vod.sooplive.co.kr##.adballoon
+play.sooplive.co.kr##.bg_dark
+play.sooplive.co.kr##.adshop_layer
+sooplive.co.kr##.click_area
+sooplive.co.kr##.left.a_d_left.Advertising_Output_Area
+sooplive.co.kr##.Advertising_Output_Area
+
+! --- Shopping --- !
+! [ Coupang ]
+coupang.com###coupang-banner
+coupang.com###fullBanner
+coupang.com###prodStickyBanner
+coupang.com###sdp-bottom-banner
+coupang.com###sdp-bottom-promotion-banner-sign-up
+coupang.com###sdp-mid-banner
+coupang.com###sdp-mid-banner-btf
+coupang.com###sdp-middle-banner
+coupang.com###app-redirect-nudge
+coupang.com##.ads-line-banner-container
+coupang.com##.ads-impression
+coupang.com##.promotion-banner
+coupang.com##.srp-top-banner-container
+coupang.com###searchOptionForm > div.search-wrapper:last-child > div.search-content.search-content-with-feedback:nth-child(2) > div.srp-top-banner-container:nth-child(3)
+
+! [ Gmarket ]
+mobile.gmarket.co.kr###srpSponsorLinkList
+
+! [ Auction ]
+auction.co.kr###BAC_AD_ZONE20
+auction.co.kr##.module_slot.promo
+browse.auction.co.kr###section--inner_content_body_container > div.section--module_wrap:last-child > div.component.component--sponsor_link
+
+! [ AliExpress ]
+aliexpress.com###container-for-smart-banner
+aliexpress.com##.pop-picture
+aliexpress.com##.top-banner-container
+
+! [ TMON ]
+tmon.co.kr###_orderBanner
+tmon.co.kr###_wrapPromotionBanner
+tmon.co.kr###topline_ad
+tmon.co.kr##.banner
+tmon.co.kr##.banner_div
+tmon.co.kr##.footer_banner
+tmon.co.kr##.link_banner
+tmon.co.kr##.slider_banners
+tmon.co.kr##.special_banner
+tmon.co.kr##.topline_ad
+
+! [ WEMAKEPRICE ]
+wemakeprice.com##.mix_global_banner
+wemakeprice.com###_cardBanner
+wemakeprice.com###_rollingBanner
+
+! [ Qoo10 ]
+qoo10.com##.shr_rwrditm
+qoo10.com##.m_ad_bnnr
+
+! [ emart ]
+emart.ssg.com###sky_banner_tab
+
+! --- etc --- !
+good-postit.biz###main > div.container_wrap.container_wrap_first.main_color.sidebar_right:first-child > div.container.template-blog.template-single-blog > main.content.units.av-content-small.alpha.av-blog-meta-author-disabled.av-blog-meta-comments-disabled.av-blog-meta-html-info-disabled:first-child > div.code-block.code-block-7:nth-child(2) > div
+nvidia.co.kr###leftBuckets
+nvidia.co.kr###Form1 > table:last-child > tbody > tr > td > div:nth-child(9)
+nvidia.co.kr###rateThisPageFooter-button
+m.bithumb.com###appInstallInducePopup
+lezhin.com###top-banner
+mbti-animal.netlify.app##a.mt-5.banner
+pushoong.com###ask_bottom_banner
+funshop.co.kr##div.wing-banner
+netmanias.com##div.clo_header:first-child > div.dwp_header > div.dlo_logo:last-child > div.dlg_serch:last-child > div:first-child
